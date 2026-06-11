@@ -349,8 +349,7 @@ by the number of matches won (the primary criterion).
 
 After the first sorting step, the names are in the order C<Beth Charlie Dave
 Ana>. After the second sorting step, it's still the same, because no one has
-won fewer matches but more sets than someone else. Such a situation is entirely
-possible, especially at larger tournaments.
+won fewer matches but more sets than someone else..
 
 C<sort> sorts in ascending order, from smallest to largest. This is the
 opposite of the desired order. Therefore, the code calls the C<.reverse> method
